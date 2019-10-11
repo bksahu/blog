@@ -1,7 +1,7 @@
 ---
 title: "Static Site Generators"
 date: 2019-10-11T19:36:45+05:30
-draft: true
+draft: false
 ---
 
 This is the third iteration of my blog. In the past I had built it with [Jekyll](https://jekyllrb.com/) and [Pelican](https://blog.getpelican.com/) but didn't end up liking any of them. This time I am using [Hugo](https://gohugo.io/), a open-source static site generators created using go and plan to stay with it. 
@@ -30,7 +30,7 @@ $ hugo new posts/<post-name>.md
 $ hugo serve
 
 # 5.2 Build devserver
-$ hugo serve -D
+$ hugo server -D
 
 # 6 Publish to github.¹²
 $ sh deploy.sh

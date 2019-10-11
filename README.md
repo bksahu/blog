@@ -12,7 +12,7 @@ $ sudo pacman -S hugo
 
 2. Running dev server
 ```console
-$ hugo serve -D
+$ hugo server -D
 ```
 
 3. Add a new blogpost
