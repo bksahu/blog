@@ -1,0 +1,25 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        </div>
+        <h3>I'm <strong>Batakrishna Sahu</strong>, a computer science student.</h3>
+        <h3>
+          I'm interested in 
+          <a href="https://en.wikipedia.org/wiki/Software_engineering">software engineering</a> & 
+          <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a>. 
+        </h3>
+        <h3>Previously, I was a GSoC '19 student with PSF working on <a href="https://nuitka.net/authors/batakrishna-sahu.html"> Nuitka</a>.</h3>
+        <h3>I love to write about my experiences. Check out my <a href="/blog/">blog</a>.</h3>
+        <h3>Feel free to reach me out at <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}">@{{ .Site.Params.Social.Twitter }}</a> or by <a href="mailto:{{ .Site.Params.Social.Email }}">email</a>.</h3>
+        {{ partial "social.html" . }}
+        </div>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>

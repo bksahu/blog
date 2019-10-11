@@ -1,0 +1,41 @@
+baseurl = "https://bksahu.me/"
+languageCode = "en-US"
+title = "Batakrishna Sahu"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "atlantis"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.png"
+  author = "bksahu"
+  description = "Batakrishna Sahu's Personal Website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "bksahu"
+  Email         = "bablusahoo16@gmail.com"
+  Twitter       = "bksahu_"
+  LinkedIn      = "bksahu"
+# Stackoverflow = "username"
+# Medium        = "username"
+# Telegram      = "username"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 200
+  url = "https://drive.google.com/open?id=1jvaW2DEsCu6vsXMwAqIPZCHBBSaogyb7"
