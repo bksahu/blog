@@ -6,6 +6,7 @@ homepage = "https://github.com/nurlansu/hugo-sustain"
 tags = ["blog", "minimal", "responsive"]
 features = ["responsive", "syntax highlighting"]
 min_version = 0.17
+highlight = true
 
 [author]
   name = "Nurlan Su"
