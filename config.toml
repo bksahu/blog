@@ -4,7 +4,7 @@ title = "Batakrishna Sahu"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "batakrishna_sahu"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-115799374-1"
 theme = "atlantis"
 enableEmoji = true
 
